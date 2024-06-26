@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="container mx-auto py-8">
+        <div class="flex justify-center mb-8">
+            <div class="w-full md:w-2/3 lg:w-1/2">
+                <div class="bg-white rounded-lg shadow-md">
+                    <!-- Video Capture Container -->
+                    <div class="relative overflow-hidden">
+                        <video id="video" autoplay class="w-full h-auto"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center items-center mb-8 space-x-4">
+            <input type="text" id="destination-input" placeholder="Enter destination"
+                class="px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 w-2/3 md:w-1/2 lg:w-1/3">
+
+            <button id="capture-button"
+                class="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300">Set
+                Destination</button>
+
+            <button id="stop-button"
+                class="px-6 py-3 bg-red-500 text-white rounded-md hover:bg-red-600 transition duration-300">Stop
+                Capture</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

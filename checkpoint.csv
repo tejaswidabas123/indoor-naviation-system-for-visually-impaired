@@ -1,0 +1,10 @@
+chekpoint_name,coordinates,labels
+door,135_655,0
+door_right,250_655,1
+003,250_550,2
+004,250_430,3
+staircase: ,215_320,4
+water_cooler,300_320,5
+turn_point,405_300,6
+gents_washroom: ,455_240,7
+002,455_35,8
