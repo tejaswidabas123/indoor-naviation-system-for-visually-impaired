@@ -10,5 +10,4 @@ In addition to providing navigation assistance, our Visual Positioning System (V
 This feature enhances the safety of visually impaired individuals during their navigation through indoor environments.
 Our VPS system tries to offer a promising solution to enhance the independence and mobility of visually impaired individuals in indoor settings, showcasing the potential for innovative applications of deep learning and algorithmic approaches in addressing real-world challenges.
 
-![image](https://github.com/i-am-pluto/indoor-positioning-system-for-visually-impaired/assets/76158724/034112e7-7d24-4e6a-b1df-59ae2baa35f9)
 
